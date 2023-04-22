@@ -1,38 +1,33 @@
 {
-  "name": "recipe-master-backend",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
+  "type": "module",
+  "name": "project-web-development-backend",
+  "version": "1.0.0",
+  "description": "Backend Code Base for Recipe-Master Website",
+  "main": "app.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "nodemon app.js",
+    "test": "echo \"Error: test cases not specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^10.0.0",
+    "eslint": "^5.7.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.14",
+    "mongoose-findorcreate": "^3.0.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.15"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "keywords": [
+    "Node",
+    "REST",
+    "Server",
+    "MongoDB",
+    "HTTP"
+  ],
+  "author": "Pramodh",
+  "license": "ISC"
 }
